@@ -1,0 +1,12 @@
+
+<div class="chat-box">
+  <%= @question %>
+  <p><em>--You</em></p>
+</div>
+
+<div class="chat-box bkg-yellow">
+  <p><strong><%= @answer %></strong></p>
+  <p><em>--Your coach</em></p>
+</div>
+
+<%= link_to 'Ask a new question', ask_path %>

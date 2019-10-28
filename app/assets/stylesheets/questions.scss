@@ -1,0 +1,50 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-family: 'Arial', Sans-serif;
+  font-weight: lighter;
+  padding: 5px 0;
+}
+
+body {
+  font-family: 'Arial', Sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  padding: 0 30px;
+}
+
+.chat-box {
+  padding: 25px 20px 5px 20px;
+  border-left: 7px solid lightgrey;
+  margin : 20px;
+}
+
+.bkg-yellow {
+  background-color: rgb(250, 255, 220);
+}
+
+a {
+  text-decoration: none;
+  padding : 20px;
+}
+
+#input-bar {
+  height: 40px;
+  width: 600px;
+  border-radius: 10px 0 0 10px;
+  border: 2px solid lightgrey;
+  margin: 0;
+}
+
+#sumbit-btn {
+  height: 40px;
+  width: 70px;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(120, 120, 120);
+  border: none;
+  margin: 0;
+}
